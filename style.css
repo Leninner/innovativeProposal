@@ -4,6 +4,8 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* Inicio cabecera */
+
 .cabecera {
     top: 0;
     height: 75px;
@@ -12,8 +14,8 @@
     padding-bottom: 0.9rem;
     display: flex;
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
     justify-content: space-between;
     color: white;
 }
@@ -23,8 +25,17 @@
 }
 .cabecera li {
     list-style: none;
-    margin: 10px;
+    margin-left: 15px;
 }
+.logo {
+    width: fit-content;
+    display: flex;
+}
+.logo img {
+    margin-right: 10px;
+}
+
+/* Fin cabecera */
 
 a {
     text-decoration: none;
@@ -36,12 +47,14 @@ a:hover {
     font-weight: bold;
 }
 
+/* Servicios inicio */
+
 .servicios {
-    padding-top: 3rem;
     height: 100vh;
     width: 100%;
     background-color: rgb(63, 51, 48);
     display: flex;
+    padding-top: 2rem;
 }
 
 .serviciosMain {
@@ -54,7 +67,4 @@ a:hover {
     background-color: azure;
 }
 
-#servicios {
-    text-align: center;
-    margin: 15px;
-}
+/* Servicios final */
