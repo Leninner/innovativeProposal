@@ -4,6 +4,18 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* Botones */
+button {
+    border-style: none;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 50px;
+    font-size: 15px;
+}
+button:hover {
+    box-shadow: 2px 5px 4px #414141;
+}
 /* Inicio cabecera */
 
 .cabecera {
@@ -62,19 +74,20 @@ a:hover {
 }
 
 .serviciosMain {
-    border-radius: 10px;
+    border-radius: 55px;
+    background: #e0e0e0;
+    box-shadow: 12px 12px 25px #5e5e5e;
     padding: 45px;
     text-align: center;
     margin: 0 auto;
     width: 250px;
     height: 350px;
-    background-color: azure;
 }
 .serviciosMain h3 {
     margin: 15px;
 }
 .serviciosMain a {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .serviciosMain img {
     margin: 15px;
@@ -89,6 +102,14 @@ a:hover {
 /* Servicios final */
 
 /* Contactos Inicios */
+.titleContactos {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.titleContactos h1 {
+    margin-top: 10px;
+}
 .contacto {
     align-items: center;
     display: flex;
@@ -110,7 +131,7 @@ a:hover {
     margin: 30px;
 }
 .contacto a {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .contacto img {
     border-radius: 50%;
@@ -118,6 +139,15 @@ a:hover {
 /* Contactos Final */
 
 /* Testimonios Inicio */
+.titleTestimonios {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.titleTestimonios h1 {
+    margin-top: 10px;
+}
+
 .testimonio {
     align-items: center;
     display: flex;
@@ -125,16 +155,24 @@ a:hover {
     height: auto;
     background-color: lightcoral;
 }
-.testimonio img {
-    border-radius: 50%;
-}
 .personas {
     text-align: center;
     width: 250px;
-    height: 100px;
+    height: 350px;
     margin: 0 auto;
+    align-items: center;
 }
-
+.personas p {
+    padding: 25px;
+    text-align: center;
+}
+.personas img {
+    margin: 25px;
+}
+.fotos {
+    width: 150px;
+    border-radius: 50%;
+}
 #Uno {
     background-color: lightcyan;
 }
