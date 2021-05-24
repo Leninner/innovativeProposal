@@ -112,6 +112,9 @@ a:hover {
 .contacto a {
     color: black;
 }
+.contacto img {
+    border-radius: 50%;
+}
 /* Contactos Final */
 
 /* Testimonios Inicio */
@@ -122,12 +125,16 @@ a:hover {
     height: auto;
     background-color: lightcoral;
 }
+.testimonio img {
+    border-radius: 50%;
+}
 .personas {
     text-align: center;
     width: 250px;
     height: 100px;
     margin: 0 auto;
 }
+
 #Uno {
     background-color: lightcyan;
 }
