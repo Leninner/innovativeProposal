@@ -63,27 +63,55 @@ a:hover {
 
 .serviciosMain {
     border-radius: 10px;
-    padding: 15px;
+    padding: 45px;
     text-align: center;
     margin: 0 auto;
     width: 250px;
     height: 350px;
     background-color: azure;
 }
+.serviciosMain h3 {
+    margin: 15px;
+}
+.serviciosMain a {
+    color: black;
+}
+.serviciosMain img {
+    margin: 15px;
+}
+.serviciosMain p {
+    text-align: justify;
+}
+.serviciosMain button {
+    margin: 60px;
+}
 
 /* Servicios final */
 
 /* Contactos Inicios */
-
-.cajaContacto {
-    margin: 0 auto;
+.contacto {
+    align-items: center;
+    display: flex;
     width: 100%;
-    height: 150px;
-    background-color: rgb(255, 2, 192);
-    text-align: center;
-    padding: 10px;
+    height: 400px;
+    background-color: darkkhaki;
 }
-
+.equipo {
+    text-align: center;
+    margin: 0 auto;
+}
+.equipo img {
+    margin: 60px;
+}
+.equipo h3 {
+    margin: 30px;
+}
+.equipo button {
+    margin: 30px;
+}
+.contacto a {
+    color: black;
+}
 /* Contactos Final */
 
 /* Testimonios Inicio */
