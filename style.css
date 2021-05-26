@@ -126,11 +126,20 @@ a:hover {
     display: flex;
     width: 100%;
     height: 400px;
-    background-color: rgb(255, 1, 192);
+    background: linear-gradient(0deg, #ff0cae, #3801ff);
 }
 .equipo {
     text-align: center;
     margin: 0 auto;
+    border-radius: 55px;
+    background: #e0e0e0;
+    box-shadow: 12px 12px 25px #5e5e5e;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+    height: 350px;
+    margin: 20px;
 }
 .equipo img {
     border-radius: 50%;
@@ -159,18 +168,24 @@ a:hover {
 }
 
 .testimonio {
+    background: linear-gradient(0deg, #ff0cae, #3801ff);
     align-items: center;
+    justify-content: center;
     display: flex;
     width: 100%;
     height: auto;
-    background-color: lightcoral;
 }
 .personas {
     text-align: center;
+    margin: 0 auto;
+    border-radius: 55px;
+    background: #e0e0e0;
+    box-shadow: 12px 12px 25px #5e5e5e;
+    padding: 5px;
+    text-align: center;
     width: 250px;
     height: 350px;
-    margin: 0 auto;
-    align-items: center;
+    margin: 30px;
 }
 .personas p {
     padding: 25px;
@@ -193,3 +208,73 @@ a:hover {
     background-color: limegreen;
 }
 /* Testimonios Final */
+
+/* Responsive Design */
+@media only screen and (max-width: 900px) {
+    .cabecera {
+        display: grid;
+        height: 90px;
+    }
+    .cabecera nav {
+        padding-left: 60px;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .servicios {
+        height: auto;
+        display: grid;
+        justify-content: center;
+    }
+    .serviciosMain {
+        margin: 15px;
+    }
+    .contacto {
+        background: linear-gradient(0deg, #ff0cae, #3801ff);
+        height: auto;
+        display: grid;
+        justify-content: center;
+    }
+    .equipo {
+        border-radius: 55px;
+        background: #e0e0e0;
+        box-shadow: 12px 12px 25px #5e5e5e;
+        padding: 5px;
+        text-align: center;
+        margin: 0 auto;
+        width: 250px;
+        height: 350px;
+        margin: 15px;
+    }
+    .equipo img {
+        border-radius: 50%;
+        width: 50%;
+        margin: 15px;
+    }
+    .equipo h3 {
+        margin: 30px;
+    }
+    .equipo button {
+        margin: 30px;
+    }
+    .testimonio {
+        background: linear-gradient(0deg, #ff0cae, #3801ff);
+        height: auto;
+        display: grid;
+        justify-content: center;
+    }
+    .personas {
+        border-radius: 55px;
+        background: #e0e0e0;
+        box-shadow: 12px 12px 25px #5e5e5e;
+        padding: 5px;
+        text-align: center;
+        margin: 0 auto;
+        width: 250px;
+        height: 350px;
+        margin: 15px;
+    }
+}
