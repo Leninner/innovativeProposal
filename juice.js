@@ -1,3 +1,10 @@
-// const visitante = prompt("Cuál es tu nombre?");
+const visitante = prompt("Cuál es tu nombre?");
+saludo(visitante);
 
-// alert("Hola, " + visitante + " es un gusto saludarte!");
+function saludo(nombre) {
+    alert(
+        "Hola, " +
+            nombre.trim().replace(/^\w/, (c) => c.toUpperCase()) +
+            " es un gusto saludarte!"
+    );
+}
